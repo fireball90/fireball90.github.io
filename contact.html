@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+<div id="main">
+    <div id="header">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="box-1">
+                    <a href="index.html" class="btn btn-one">HOME</a>
+                </div>
+                <div class="box-1">
+                    <a href="about.html" class="btn btn-one">ABOUT</a>
+                </div>
+                <div class="box-1">
+                    <a href="portfolio.html" class="btn btn-one">PORTFOLIO</a>
+                </div>
+                <div class="box-1">
+                    <a href="contact.html" class="btn btn-one">CONTACT</a>
+                </div>
+                <br></br>
+                <br></br>
+                <div class="box-1">
+                    <a href="#" class="btn btn-three" onclick="myFunction()">TOGGLE DARK MODE</a>
+                </div>
+        </div>
+        
+           <span class="btn btn-three" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+        
+    </div>
+
+
+    <div id="body">
+        
+        <div class="article">
+            <h2>Elérhetőségeim</h2>
+            <p>
+                Publikus e-mail: <a href="mailto:dj.fireball90@gmail.com">dj.fireball90@gmail.com</a>
+            </p>
+            <div  class="emailpls">
+                <form>
+                  
+                        <legend>
+                            <h2>Írj az oldalon keresztül:</h2>
+                        </legend>    
+                        <form action="mailto:dj.fireball90@gmail.com" method="post" enctype="text/plain">
+                            Név:<br>
+                            <input type="text" name="name"><br>
+                            E-mail cím:<br>
+                            <input type="text" name="mail"><br>
+                            Szöveg:<br>
+                            <input type="text" name="comment" size="50"><br><br>
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </form>
+
+                   
+                </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+    
+    
+    
+</body>
+</html>
