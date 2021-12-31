@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/bg.jpg");
+    background-image: url("../images/bg.jpg");
     background-repeat: repeat;
 }
 
@@ -40,7 +40,7 @@ menu{
     z-index: 1;
     top: 200px;
     left: 20%;
-    background:linear-gradient(0deg, rgba(236, 10, 10, 0.4), rgba(138, 0, 23, 0.1)), url("../images/bg.jpg");
+    background:linear-gradient(0deg, rgba(236, 10, 10, 0.4), rgba(138, 0, 23, 0.1)), url("../images/bg2.jpg");
     background-repeat: repeat;
     overflow-x: hidden;
     padding: 8px 0;
@@ -67,7 +67,7 @@ main {
 }
 
 footer{
-    background:linear-gradient(0deg, rgba(35, 141, 145, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg.jpg");
+    background:linear-gradient(0deg, rgba(35, 141, 145, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bg2.jpg");
     background-repeat: repeat;
     width: 1200px;
     height: 50px;
@@ -80,5 +80,16 @@ footer{
 #bal{
     float: left;
     width: 250px;
+    height: auto;
+}
+
+#middle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#star{
+    width: 100px;
     height: auto;
 }
