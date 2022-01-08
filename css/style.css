@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Prompt&display=swap');
 html * {
     margin:0px;
 }
@@ -72,11 +74,37 @@ main{
 }
 main h1{
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main h2{
+    color: burlywood;
+    font-family: 'Prompt', sans-serif;
+}
+main h3{
+    color: indianred;
+    font-family: 'Josefin Sans', sans-serif;
+}
+main li{
+    color: coral;
+}
+main a{
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 20;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+}
+main a:hover{
+    color: darkorange;
+}
+main a:visited{
+    color: grey;
 }
 p{
     text-align: justify;
-    font-size: 12;
+    font-size: 14;
     color: cornsilk;
+    font-family: 'Josefin Sans', sans-serif;
 }
 footer{
     width: 100%;
@@ -92,4 +120,21 @@ footer h2 {
     padding-top: 40px;
     color: rgb(255, 255, 255);
     text-align:center;
+    font-family: 'Prompt', sans-serif;
+}
+
+.frame {
+    width: 120px;
+    height: 120px;
+    border: 3px solid rgb(255, 230, 0);
+    background: rgb(202, 186, 133);
+    margin: auto;
+    padding: 15px 15px;
+    border-radius: 10%;
+    float: right;
+    margin-left: 15px;
+}
+.frame img{
+    margin-top:-10%;
+    margin-left:10%;
 }
