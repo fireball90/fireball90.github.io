@@ -50,7 +50,7 @@ export default function Login() {
     setIsloginPending(true);
 
     axios
-      .post("https://islanders-001-site1.htempurl.com/api/Auth/Login", {
+      .post("//islanders-001-site1.htempurl.com/api/Auth/Login", {
         username: username,
         password: password,
       })
