@@ -50,7 +50,7 @@ export default function Login() {
     setIsloginPending(true);
 
     axios
-      .post(`${process.env.REACT_APP_API_BASE}/api/Auth/Login`, {
+      .post("https://islanders-001-site1.htempurl.com/api/Auth/Login", {
         username: username,
         password: password,
       })
