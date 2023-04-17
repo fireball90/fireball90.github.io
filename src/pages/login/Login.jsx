@@ -63,7 +63,7 @@ export default function Login() {
         const decodedToken = decodeToken(token);
         setUserLogined(
           decodedToken[
-            "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"
+            "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"
           ],
           decodedToken.Email
         );
@@ -125,7 +125,7 @@ export default function Login() {
     axios.defaults.headers.common["Authorization"] = `bearer ${token}`;
     setUserLogined(
       decodedToken[
-        "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"
+        "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"
       ],
       decodedToken.Email
     );
