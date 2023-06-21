@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chatbotfe/static/css/main.0ec83938.css",
-    "main.js": "/chatbotfe/static/js/main.7a18c723.js",
-    "static/js/787.8c95b53d.chunk.js": "/chatbotfe/static/js/787.8c95b53d.chunk.js",
-    "static/media/BG.jpg": "/chatbotfe/static/media/BG.661a1f65fefd821b1210.jpg",
-    "index.html": "/chatbotfe/index.html",
-    "main.0ec83938.css.map": "/chatbotfe/static/css/main.0ec83938.css.map",
-    "main.7a18c723.js.map": "/chatbotfe/static/js/main.7a18c723.js.map",
-    "787.8c95b53d.chunk.js.map": "/chatbotfe/static/js/787.8c95b53d.chunk.js.map"
+    "main.css": "/static/css/main.02f402ae.css",
+    "main.js": "/static/js/main.2b729736.js",
+    "static/js/787.8c95b53d.chunk.js": "/static/js/787.8c95b53d.chunk.js",
+    "static/media/BG.jpg": "/static/media/BG.661a1f65fefd821b1210.jpg",
+    "index.html": "/index.html",
+    "main.02f402ae.css.map": "/static/css/main.02f402ae.css.map",
+    "main.2b729736.js.map": "/static/js/main.2b729736.js.map",
+    "787.8c95b53d.chunk.js.map": "/static/js/787.8c95b53d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ec83938.css",
-    "static/js/main.7a18c723.js"
+    "static/css/main.02f402ae.css",
+    "static/js/main.2b729736.js"
   ]
 }
