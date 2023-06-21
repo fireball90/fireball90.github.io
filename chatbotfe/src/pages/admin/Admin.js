@@ -8,9 +8,17 @@ export default function Admin() {
   const [logIds, setLogIds] = useState([])
   const [messages, setMessages] = useState([])
 
-
+  //https://81ef-91-147-254-140.ngrok-free.app/all_logs/${log_id}
+  //http://127.0.0.1:8000/all_logs/${log_id}
   const fetchMessages = (log_id) => {
-    fetch(`http://127.0.0.1:8000/all_logs/${log_id}`)
+    fetch(`https://81ef-91-147-254-140.ngrok-free.app/all_logs/${log_id}`,{
+      method: 'GET',
+      headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': 'https://81ef-91-147-254-140.ngrok-free.app/',
+          'ngrok-skip-browser-warning':true
+      }
+    })
       .then(response => response.json())
       .then(data =>
         setMessages(data),
@@ -21,19 +29,27 @@ export default function Admin() {
       });
   };
 
-  const fetchLogs = async () => {
-    try {
-      const response = await fetch('http://127.0.0.1:8000/logs/');
-      if (response.ok) {
-        const jsonData = await response.json();
-        setLogIds(jsonData);
-      } else {
-        throw new Error('Request failed');
+  //https://81ef-91-147-254-140.ngrok-free.app/logs/
+  //http://127.0.0.1:8000/logs/
+
+  const fetchLogs = (log_id) => {
+    fetch(`https://81ef-91-147-254-140.ngrok-free.app/logs/`,{
+      method: 'GET',
+      headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': 'https://81ef-91-147-254-140.ngrok-free.app/',
+          'ngrok-skip-browser-warning':true
       }
-    } catch (error) {
-      console.error(error);
-    }
+    })
+      .then(response => response.json())
+      .then(data =>
+        setLogIds(data)
+      )
+      .catch(error => {
+        console.error('GET request failed:', error);
+      });
   };
+
 
   useEffect(() => {
 

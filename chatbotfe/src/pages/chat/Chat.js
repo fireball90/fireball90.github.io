@@ -63,11 +63,13 @@ export default function Chat() {
                                 }); 
             return;                     
         }
-
-        fetch('http://127.0.0.1:8000/logs/', {
+        //https://81ef-91-147-254-140.ngrok-free.app/logs/
+        //http://127.0.0.1:8000/logs/
+        fetch('https://81ef-91-147-254-140.ngrok-free.app/logs/', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': 'https://81ef-91-147-254-140.ngrok-free.app/',
             },
             body: JSON.stringify({
                 "logid": localStorage.getItem('randomId'),
