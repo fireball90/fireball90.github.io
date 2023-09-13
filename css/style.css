@@ -4161,7 +4161,7 @@ $cyan:     #00aaaad0 !default;
     height: 14px;
     pointer-events: none;
     content: "";
-    background-color: transparent;
+    background-color: transparent !important;
   }
   
   .custom-control-label::after {
@@ -5632,7 +5632,7 @@ $cyan:     #00aaaad0 !default;
     display: -ms-flexbox;
     display: flex;
     height: 14px;
-    background: url("../img/shade-50-grayDark.svg") repeat-x left center;
+    background: url("../img/shade-50-grayDark.svg") repeat-x left center !important;
   }
   .progress2 {
     display: -ms-flexbox;
@@ -10634,6 +10634,6 @@ $cyan:     #00aaaad0 !default;
 }
 
 .progress-text{
-  color: #000;
+  color: #000 !important;
 }
   /*# sourceMappingURL=bootstrap.css.map */
