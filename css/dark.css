@@ -80,7 +80,7 @@ $cyan:     #00aaaad0 !default;
     font-size: 16px;
     color: #bbbbbb;
     text-align: left;
-    background-color: #000084;
+    background-color: #000000;
     -webkit-font-kerning: none;
     font-kerning: none;
     text-rendering: geometricPrecision;
@@ -105,6 +105,7 @@ $cyan:     #00aaaad0 !default;
   p {
     margin-top: 0;
     margin-bottom: 14px;
+    color: white;
   }
   
   abbr[title],
@@ -421,9 +422,9 @@ $cyan:     #00aaaad0 !default;
     font-weight: 400;
     line-height: 14px;
     text-indent: 8px;
-    background: #00aaaa;
+    background: #aa00aa;
     padding: 14px 8px;
-    color: #000000;
+    color: #ffffff;
   }
   
   h1 .text-muted, h2 .text-muted,
@@ -437,7 +438,7 @@ $cyan:     #00aaaad0 !default;
   
   h3, .h3 {
     color: #fff;
-    border: 0.875px solid #fff;
+    border: 0.875px solid #000000;
     margin-top: 7px;
     padding-top: 6.125px;
     padding-bottom: 7px;
@@ -2063,7 +2064,7 @@ $cyan:     #00aaaad0 !default;
     font-weight: 400;
     line-height: 14px;
     color: #fff;
-    background-color: #000000;
+    background-color: black;
     background-clip: padding-box;
     border: 0 solid #555555;
   }
@@ -2114,7 +2115,7 @@ $cyan:     #00aaaad0 !default;
   
   select.form-control {
     background: #555;
-    border: 0.875px solid #000000;
+    border: 0.875px solid #fff;
     margin-top: 7px;
     padding-top: 6.125px;
     padding-bottom: 7px;
@@ -2132,8 +2133,8 @@ $cyan:     #00aaaad0 !default;
   }
   
   select.form-control:focus::-ms-value {
-    color: #000000;
-    background: #bbbbbb;
+    color: #fff;
+    background: #555;
   }
   
   .form-control-file,
@@ -2197,7 +2198,7 @@ $cyan:     #00aaaad0 !default;
   textarea.form-control {
     height: auto;
     width: calc(100% - 6px);
-    border: 0.875px solid #000;
+    border: 0.875px solid #fff;
     margin-top: 7px;
     padding-top: 6.125px;
     padding-bottom: 7px;
@@ -2208,11 +2209,11 @@ $cyan:     #00aaaad0 !default;
     padding-left: 2.5px;
     padding-right: 3.5px;
     margin-right: 2.5px;
-    box-shadow: inset 0 -3.5px 0 3px #bbbbbb, inset 0 3.5px 0 3px #bbbbbb, -3.5px -7px 0 0 #bbbbbb, 2.5px 6.125px 0 0 #bbbbbb, -3.5px 6.125px 0 0 #bbbbbb, 2.5px -7px 0 0 #bbbbbb;
+    box-shadow: inset 0 -3.5px 0 3px #555, inset 0 3.5px 0 3px #555, -3.5px -7px 0 0 #555, 2.5px 6.125px 0 0 #555, -3.5px 6.125px 0 0 #555, 2.5px -7px 0 0 #555;
   }
   
   input.form-control {
-    background: url("../img/left-brace-black.svg") no-repeat left bottom, url("../img/right-brace-black.svg") no-repeat right bottom, #999;
+    background: url("../img/left-brace-white.svg") no-repeat left bottom, url("../img/right-brace-white.svg") no-repeat right bottom, #777;
     color: #fff;
     padding: 0 8px;
   }
@@ -2560,9 +2561,9 @@ $cyan:     #00aaaad0 !default;
   }
   
   .btn-primary {
-    color: #000000;
+    color: #fff;
     border-color: #000000;
-    background-color: #bbbbbb;
+    background-color: #555;
   }
   
   .btn-primary:hover:before, .btn-primary:hover:after {
@@ -2591,7 +2592,7 @@ $cyan:     #00aaaad0 !default;
   }
   
   .btn-primary.btn-lg, .btn-group-lg > .btn-primary.btn {
-    background-color: #bbbbbb;
+    background-color: #555;
     border: 0.875px solid #000000;
     margin-top: 7px;
     padding-top: 6.125px;
@@ -2603,7 +2604,7 @@ $cyan:     #00aaaad0 !default;
     padding-left: 10.5px;
     padding-right: 11.5px;
     margin-right: 2.5px;
-    box-shadow: -3.5px -7px 0 0 #bbbbbb, 2.5px 6.125px 0 0 #bbbbbb, -3.5px 6.125px 0 0 #bbbbbb, 2.5px -7px 0 0 #bbbbbb;
+    box-shadow: -3.5px -7px 0 0 #555, 2.5px 6.125px 0 0 #555, -3.5px 6.125px 0 0 #555, 2.5px -7px 0 0 #555;
     -webkit-filter: drop-shadow(7px 8px 0 black);
     filter: drop-shadow(7px 8px 0 black);
     margin-right: 10.5px;
@@ -4961,7 +4962,7 @@ $cyan:     #00aaaad0 !default;
   }
   
   .navbar-dark .navbar-nav .nav-link {
-    color: #000000;
+    color: #fff;
   }
   
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
@@ -5012,7 +5013,7 @@ $cyan:     #00aaaad0 !default;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #bbbbbb;
+    background-color: #555;
     background-clip: border-box;
     border-radius: 0;
   }
@@ -5485,8 +5486,8 @@ $cyan:     #00aaaad0 !default;
     padding: 28px 16px;
     margin-bottom: 28px 16px;
     color: #000000;
-    background-color: #bbbbbb;
-    border: 0.875px solid #000000;
+    background-color: #555;
+    border: 0.875px solid #fff;
     margin-top: 7px;
     padding-top: 6.125px;
     padding-bottom: 7px;
@@ -5497,7 +5498,7 @@ $cyan:     #00aaaad0 !default;
     padding-left: 10.5px;
     padding-right: 11.5px;
     margin-right: 2.5px;
-    box-shadow: -3.5px -7px 0 0 #bbbbbb, 2.5px 6.125px 0 0 #bbbbbb, -3.5px 6.125px 0 0 #bbbbbb, 2.5px -7px 0 0 #bbbbbb;
+    box-shadow: -3.5px -7px 0 0 #555, 2.5px 6.125px 0 0 #555, -3.5px 6.125px 0 0 #555, 2.5px -7px 0 0 #555;
     display: inline-block;
     width: calc(100% - 6px);
   }
@@ -5509,7 +5510,7 @@ $cyan:     #00aaaad0 !default;
     top: -7px;
     margin: 0;
     left: 20px;
-    background: #bbbbbb;
+    background: #555;
     border-left: 3px double #000000;
     border-right: 3px double #000000;
   }
@@ -5632,7 +5633,7 @@ $cyan:     #00aaaad0 !default;
     display: -ms-flexbox;
     display: flex;
     height: 14px;
-    background: url("../img/shade-50-grayDark.svg") repeat-x left center;
+    background: url("../img/shade-50-grayLight.svg") repeat-x left center;
   }
   .progress2 {
     display: -ms-flexbox;
@@ -6772,7 +6773,7 @@ $cyan:     #00aaaad0 !default;
   }
   
   .bg-primary {
-    background-color: #bbbbbb !important;
+    background-color: #555 !important;
   }
   
   a.bg-primary:hover, a.bg-primary:focus,
@@ -10634,6 +10635,6 @@ $cyan:     #00aaaad0 !default;
 }
 
 .progress-text{
-  color: #000;
+  color: #fff;
 }
   /*# sourceMappingURL=bootstrap.css.map */

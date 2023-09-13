@@ -6,15 +6,16 @@
     <title>Balázs Mészáros portfolio website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" id="stylesheet">
 </head>
 
 <body class="bootstra-enable-cursor">
 
     <!-- NAVIGATION BAR -->
     <div class="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
-        <div class="container">
-            <p class="navbar-brand text-white h4">Balázs Mészáros</p>
+        <div class="container ">
+            <p class="navbar-brand text-warning h4">Balázs Mészáros</p>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <!--<span class="navbar-toggler-icon"></span>-->
@@ -37,6 +38,10 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
+            </div>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="switch" onclick="changeFunction()">
+                <label class="custom-control-label text-black" for="switch">Change theme</label>
             </div>
         </div>
     </div>
@@ -135,33 +140,40 @@
                 </div>
                 <div class="bs-component">
                     <div class="jumbotron">
-                        <p class="lead text-justify pt-4 pl-2 pr-2">
-                            Hello, I'm <span class="text-warning">Balázs Mészáros</span>, a passionate full-stack
-                            developer with a strong inclination towards frontend technologies like <span
-                                class="text-purple">JavaScript</span> and <span class="text-purple">React.js</span>.
-                        </p>
-                        <p class="lead text-justify pl-2 pr-2">
-                            While my expertise lies in crafting responsive and interactive user interfaces, I also
-                            possess the skills to work with backend technologies such as <span
-                                class="text-violet">C#</span> and <span class="text-violet">Python</span>. Over the
-                            years, I've honed my coding skills and delved into the intricacies of web development,
-                            gaining hands-on experience in building robust and responsive web applications.
-                        </p>
-                        <p class="lead text-justify pl-2 pr-2">
-                            Apart from coding, I stay up-to-date with the latest advancements in technology, from
-                            cutting-edge processors to powerful GPUs. Exploring the ever-evolving tech landscape is both
-                            a passion and a hobby for me. I like to make logos and edit images with photoshop or
-                            illustrator. I'm also an avid gamer who revels in immersive gaming experiences, competing in
-                            epic battles, and uncovering captivating stories. When it's time to unwind, I indulge in the
-                            magic of cinema. I'm equally at home watching classic movies or tuning into gaming-related
-                            streams on platforms like Twitch. Exploring the wide spectrum of content on YouTube is
-                            another source of entertainment and inspiration.
-                        </p>
-                        <p class="lead text-justify pl-2 pr-2">
-                            These diverse interests not only enrich my life but also influence my approach to
-                            problem-solving and creativity in the digital realm. I'm a firm believer that a well-rounded
-                            perspective enhances every aspect of my work as a developer.
-                        </p>
+                        <div class="row d-flex justify-content-center">
+                        <div class="jumbotron col-md-3">
+                            <img src="/img/profpic.gif" title="Balazs Meszaros" alt="Balazs Meszaros" class="img-fluid"/>
+                        </div>
+                        <div class="jumbotron col-md-8">
+                            <p class="lead text-justify pt-4 pl-2 pr-2">
+                                Hello, I'm <span class="text-warning">Balázs Mészáros</span>, a passionate full-stack
+                                developer with a strong inclination towards frontend technologies like <span
+                                    class="text-danger">JavaScript</span> and <span class="text-danger">React.js</span>.
+                            </p>
+                            <p class="lead text-justify pl-2 pr-2">
+                                While my expertise lies in crafting responsive and interactive user interfaces, I also
+                                possess the skills to work with backend technologies such as <span
+                                    class="text-violet">C#</span> and <span class="text-violet">Python</span>. Over the
+                                years, I've honed my coding skills and delved into the intricacies of web development,
+                                gaining hands-on experience in building robust and responsive web applications.
+                            </p>
+                            <p class="lead text-justify pl-2 pr-2">
+                                Apart from coding, I stay up-to-date with the latest advancements in technology, from
+                                cutting-edge processors to powerful GPUs. Exploring the ever-evolving tech landscape is both
+                                a passion and a hobby for me. I like to make logos and edit images with photoshop or
+                                illustrator. I'm also an avid gamer who revels in immersive gaming experiences, competing in
+                                epic battles, and uncovering captivating stories. When it's time to unwind, I indulge in the
+                                magic of cinema. I'm equally at home watching classic movies or tuning into gaming-related
+                                streams on platforms like Twitch. Exploring the wide spectrum of content on YouTube is
+                                another source of entertainment and inspiration.
+                            </p>
+                            <p class="lead text-justify pl-2 pr-2">
+                                These diverse interests not only enrich my life but also influence my approach to
+                                problem-solving and creativity in the digital realm. I'm a firm believer that a well-rounded
+                                perspective enhances every aspect of my work as a developer.
+                            </p>
+                        </div>
+                        </div>
                         <p class="lead text-center">
                             <a class="btn btn-primary btn-lg text-warning h4" href="#" role="button">English CV</a>
                             <a class="btn btn-primary btn-lg text-danger h4" href="#" role="button">Hungarian CV</a>
@@ -184,129 +196,129 @@
                     <h1 id="containers" class="">Skills</h1>
                 </div>
                 <div class="jumbotron p-5">
-                    <h3 id="progress-basic" class="text-black">C# - .Net, WinForms, WPF, ASP.Net Core Web API</h3>
+                    <h3 id="progress-basic" class="progress-text">C# - .Net, WinForms, WPF, ASP.Net Core Web API</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Python - FastAPI, Flask, Tkinter</h3>
+                    <h3 id="progress-basic" class="progress-text">Python - FastAPI, Flask, Tkinter</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">MySQL - SQL, Xampp, Workbench</h3>
+                    <h3 id="progress-basic" class="progress-text">MySQL - SQL, Xampp, Workbench</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-info" role="progressbar" style="width: 90%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">HTML + CSS + basic Javascript / Typescript</h3>
+                    <h3 id="progress-basic" class="progress-text">HTML + CSS + basic Javascript / Typescript</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-light" role="progressbar" style="width: 90%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">React JS - Next js, Vite</h3>
+                    <h3 id="progress-basic" class="progress-text">React JS - Next js, Vite</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Capacitor, Bootstrap, TtkBootstrap</h3>
+                    <h3 id="progress-basic" class="progress-text">Capacitor, Bootstrap, TtkBootstrap</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Github</h3>
+                    <h3 id="progress-basic" class="progress-text">Github</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Trello - MS Planner</h3>
+                    <h3 id="progress-basic" class="progress-text">Trello - MS Planner</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Photoshop, Illustrator, Aseprite</h3>
+                    <h3 id="progress-basic" class="progress-text">Photoshop, Illustrator, Aseprite</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-info" role="progressbar" style="width: 70%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Sony Vegas</h3>
+                    <h3 id="progress-basic" class="progress-text">Sony Vegas</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-light" role="progressbar" style="width: 60%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Microsoft Office - Word, Excel, Outlook, PowerPoint</h3>
+                    <h3 id="progress-basic" class="progress-text">Microsoft Office - Word, Excel, Outlook, PowerPoint</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-warning" role="progressbar" style="width: 80%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Google - Docs, Drive, Slides, Forms, Spreadsheets</h3>
+                    <h3 id="progress-basic" class="progress-text">Google - Docs, Drive, Slides, Forms, Spreadsheets</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">SAP</h3>
+                    <h3 id="progress-basic" class="progress-text">SAP</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Hardware - Maintenance, Knowledge</h3>
+                    <h3 id="progress-basic" class="progress-text">Hardware - Maintenance, Knowledge</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">Chatbots - Landbot, Voiceflow, Dialogflow ES & CX</h3>
+                    <h3 id="progress-basic" class="progress-text">Chatbots - Landbot, Voiceflow, Dialogflow ES & CX</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <br>
-                    <h3 id="progress-basic" class="text-black">RPA - Power Automate</h3>
+                    <h3 id="progress-basic" class="progress-text">RPA - Power Automate</h3>
                     <div class="bs-component">
-                        <div class="progress2">
+                        <div class="progress">
                             <div class="progress-bar bg-light" role="progressbar" style="width: 70%;" aria-valuenow="25"
                                 aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -331,8 +343,7 @@
                 <div class="card mb-3">
                     <div class="card-header">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -351,8 +362,7 @@
                 <div class="card mb-3">
                     <div class="card-header">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -371,8 +381,7 @@
                 <div class="card mb-3">
                     <div class="card-header">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -391,8 +400,7 @@
                 <div class="card mb-3">
                     <div class="card-header bg-danger">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -411,8 +419,7 @@
                 <div class="card mb-3">
                     <div class="card-header bg-danger">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -431,8 +438,7 @@
                 <div class="card mb-3">
                     <div class="card-header bg-danger">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -451,8 +457,7 @@
                 <div class="card mb-3">
                     <div class="card-header bg-warning">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -471,8 +476,7 @@
                 <div class="card mb-3">
                     <div class="card-header bg-warning">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -491,8 +495,7 @@
                 <div class="card mb-3">
                     <div class="card-header bg-warning">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -511,8 +514,7 @@
                 <div class="card mb-3">
                     <div class="card-header bg-success">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -531,8 +533,7 @@
                 <div class="card mb-3">
                     <div class="card-header bg-success">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -551,8 +552,7 @@
                 <div class="card mb-3">
                     <div class="card-header bg-success">Card header</div>
                     <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                    <h6 class="card-title">Special title treatment</h6>
                     </div>
                     <img src="" alt="" title=""/>
                     <div class="card-body">
@@ -601,10 +601,10 @@
                                     <div class="bs-component">
                                     <ul class="list-group text-center">
                                         <form id="send-email" class="p-2">
-                                            <p class="text-danger h5 pb-2"> not implemented yet</p>
+                                            <p class="text-danger h5 pb-2">It's not implemented yet</p>
                                             <fieldset>
                                               <div class="form-group">
-                                                <label for="exampleInputEmail1">Email address</label>
+                                                <label for="exampleInputEmail1" class=" text-white">Email address</label>
                                                 <input type="email" class="form-control email-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                                               </div>
                                               <div class="form-group">
@@ -616,18 +616,22 @@
                                     </ul>
                                     </div>
                                 </div>
+
                             </div>  
+                            <div class="text-center">
+                                <p>© 2023 Balázs Mészáros</p>
+                            </div>
                         </div>
                     </div>
             </div>
         </div>
     </div>
     </section>
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.js"></script>
+    <script src="/js/modeswitch.js"></script>
     <script>
         (function () {
             _386.magicCursor();
