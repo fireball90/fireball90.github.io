@@ -4161,7 +4161,7 @@ $cyan:     #00aaaad0 !default;
     height: 14px;
     pointer-events: none;
     content: "";
-    /* background-color: #000084; */
+    background-color: transparent;
   }
   
   .custom-control-label::after {
