@@ -1,0 +1,125 @@
+ [
+    {
+        "id": 0,
+        "header": "Islanders the game",
+        "text": "It was my biggest project so far. I made it with 2 other people for the final exam in our programming school. Its a browser game where you manage your island but can also attack other islands (player islands as PVP) and you can also do expeditions on your own island (PVE). Gather materials to build new buildings and upgrade them. We used C# for backend, react for frontend and mysql for database. We also used a ton of other programs, packages. In the github repo you can find the link to the backend in the read me section. Also you can read more about the project in the Prezentacio or Dokumentacio folders. Sadly the documentation is only available in hungarian but you can check out the presentation in english - just download the files which end with 'angol'.",
+        "images": [
+            "/img/projects/islanders/islanders_1.jpg",
+            "/img/projects/islanders/islanders_2.jpg",
+            "/img/projects/islanders/islanders_3.jpg",
+            "/img/projects/islanders/islanders_4.jpg"
+        ],
+        "github": "https://github.com/fireball90/island_base"
+    },
+    {
+        "id": 1,
+        "header": "Admin demo page",
+        "text": "It was for a bigger project so i cant show more from this and i cant even give you the github. But it was my first Next JS Typescript project (react) and im proud of it. It wasnt easy to do. I also used Material UI for the admin page.",
+        "images": [
+            "/img/projects/demo/anydemo_1.jpg",
+            "/img/projects/demo/anydemo_2.jpg",
+            "/img/projects/demo/anydemo_3.jpg"
+        ],
+        "github": "https://github.com/fireball90"
+    },
+    {
+        "id": 2,
+        "header": "Chatters - Chat app",
+        "text": "Its an unfinished project from my friend and I. We made it during the summer but never got to finish it. It think its one of the better looking webpages that i have done. Its modern and slick - kind of tinder looking with its colours. I was the one who made the frontend part (as most of the time on team projects) and its around 70% done. We used basic css, js and html with a c# server and MSSQL.",
+        "images": [
+            "/img/projects/chat/chat_dark.jpg",
+            "/img/projects/chat/chat_light.jpg",
+            "/img/projects/chat/chat_full.jpg",
+            "/img/projects/chat/chat_register.jpg"
+        ],
+        "github": "https://github.com/fireball90/chat_2022"
+    },
+    {
+        "id": 3,
+        "header": "Oldschool blog",
+        "text": "Its a basic oldschool looking blog. I made the frontend and my friend did the backend for it. Frontend is basic html, css, javascript. Backend is C# with MSSQL database.",
+        "images": [
+            "/img/projects/blog/blog_1.jpg",
+            "/img/projects/blog/blog_2.jpg"
+        ],
+        "github": "https://github.com/fireball90/blog_2022"
+    },
+    {
+        "id": 4,
+        "header": "A.I. Chat",
+        "text": "I made this website for an interview. It took me 5 days to make. It has 5 parts:<p> 1. MySQL database: it saves the questions/answers to a random id generated for the user (its also saved to the localstorage so one user has the same id).</p><p> 2. Backend APIs for the communication.</p><p> 3. Backend LLM with langchain for receiving answer for the questions from a file (json files).</p><p> 4. Webscape tool, for getting data from a webpage and converting it to a json file.</p><p> 5. Frontend react application where you can talk to the bot and also check the previous conversations with the admin page.</p><p> Its one of my biggest full-stack applications.</p>",
+        "images": [
+            "/img/projects/aichat/aichat.jpg"
+        ],
+        "github": "https://github.com/fireball90"
+    },
+    {
+        "id": 5,
+        "header": "Simple Boxing game",
+        "text": "A boxing game which is easy to use and play. It has some limitations but thats all i could make with C# forms/Wpf. It was also made for an exam.",
+        "images": [
+            "/img/projects/boxing/boxinggame.jpg"
+        ],
+        "github": "https://github.com/fireball90/boxing_game"
+    },
+    {
+        "id": 6,
+        "header": "WPF login",
+        "text": "A simple login UI made with C#. Its not that exciting but looks good for a basic WPF application. You can use it if you want to.",
+        "images": [
+            "/img/projects/login/login.jpg"
+        ],
+        "github": "https://github.com/fireball90/login_base"
+    },
+    {
+        "id": 7,
+        "header": "ZugZug the game",
+        "text": "I made this game with two of my friends for an exam. I was in charge of the designs, windows (tkinter), map editor. It was made using python and some packages like pillow for images and tkinter for the windows, buttons etc.",
+        "images": [
+            "/img/projects/zugzug/zugzug_1.jpg",
+            "/img/projects/zugzug/zugzug_2.jpg",
+            "/img/projects/zugzug/zugzug_3.jpg",
+            "/img/projects/zugzug/zugzug_4.jpg"
+        ],
+        "github": "https://github.com/fireball90/rpgproject"
+    },
+    {
+        "id": 8,
+        "header": "ZugZug webpage",
+        "text": "This website was made in like 3-4 hours. I made it for our ZugZug python game project which was for an exam. You can learn more about the game on the ZugZug the game project page.",
+        "images": [
+            "/img/projects/zugpage/zugzugweblap.jpg"
+        ],
+        "github": "https://github.com/fireball90/zugzug_page"
+    },
+    {
+        "id": 9,
+        "header": "Simple photo webpage",
+        "text": "I made this website with my friends. We wanted to try this design and also wanted to try something new - iFrames. Since we didnt learn about it in school we had to look it up on the internet.",
+        "images": [
+            "/img/projects/photo/fotos1.jpg",
+            "/img/projects/photo/fotos2.jpg"
+        ],
+        "github": "https://github.com/fireball90/simple_photo_iframe"
+    },
+    {
+        "id": 10,
+        "header": "Nettypedi webpage",
+        "text": "It was made for my friend Anett who is a pedicurist. Its out-of-date but i think its a fairly good looking website for how fast i made it. Its simple html and css. I wanted to make some javascript for it but it wasnt needed.",
+        "images": [
+            "/img/projects/netty/netty_1.jpg",
+            "/img/projects/netty/netty_2.jpg",
+            "/img/projects/netty/netty_3.jpg"
+        ],
+        "github": "https://github.com/fireball90/nettypedi"
+    },
+    {
+        "id": 11,
+        "header": "Simple phonebook",
+        "text": "It's a simple phonebook application written in C#. It was made for a school project. You are free to download it and use it if you wish.",
+        "images": [
+            "/img/projects/phonebook/nevjegyzek.jpg"
+        ],
+        "github": "https://github.com/fireball90/phonebook"
+    }
+]

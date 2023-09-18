@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "header": "Islanders the game",
+        "text": "It was my biggest project so far. I made it with 2 other people for the final exam in our programming school ... press 'more info' to read more.",
+        "image": "/img/projects/islanders/islanders_2.jpg"
+    },
+    {
+        "id": 1,
+        "header": "Admin demo page",
+        "text": "It was for a bigger project so i cant show more from this and i cant even give you the github. But it ... press 'more info' to read more.",
+        "image": "/img/projects/demo/anydemo_1.jpg"
+    },
+    {
+        "id": 2,
+        "header": "Chatters - Chat app",
+        "text": "Its an unfinished project from my friend and I. We made it during the summer but never got to finish it ... press 'more info' to read more.",
+        "image": "/img/projects/chat/chat_light.jpg"
+    },
+    {
+        "id": 3,
+        "header": "Oldschool blog",
+        "text": "Its a basic oldschool looking blog. I made the frontend and my friend did the backend for it. Frontend is basic html, css, ... press 'more info' to read more.",
+        "image": "/img/projects/blog/blog_1.jpg"
+    },
+    {
+        "id": 4,
+        "header": "A.I. Chat",
+        "text": "I made this website for an interview. It took me 5 days to make. It has 5 parts ... press 'more info' to read more.",
+        "image": "/img/projects/aichat/aichat.jpg"
+    },
+    {
+        "id": 5,
+        "header": "Simple Boxing game",
+        "text": "A boxing game which is easy to use and play. It has some limitations but thats all i could make with ... press 'more info' to read more.",
+        "image": "/img/projects/boxing/boxinggame.jpg"
+    },
+    {
+        "id": 6,
+        "header": "WPF login",
+        "text": "A simple login UI made with C#. Its not that exciting but looks good for a basic WPF application ... press 'more info' to read more.",
+        "image": "/img/projects/login/login.jpg"
+    },
+    {
+        "id": 7,
+        "header": "ZugZug the game",
+        "text": "I made this game with two of my friends for an exam. I was in charge of the designs, windows (tkinter), ... press 'more info' to read more.",
+        "image": "/img/projects/zugzug/zugzug_5.jpg"
+    },
+    {
+        "id": 8,
+        "header": "ZugZug webpage",
+        "text": "This website was made in like 3-4 hours. I made it for our ZugZug python game project which was for an exam. ... press 'more info' to read more.",
+        "image": "/img/projects/zugpage/zugzugweblap.jpg"
+    },
+    {
+        "id": 9,
+        "header": "Simple photo webpage",
+        "text": "I made this website with my friends. We wanted to try this design and also wanted to try something new - ... press 'more info' to read more.",
+        "image": "/img/projects/photo/fotos1.jpg"
+    },
+    {
+        "id": 10,
+        "header": "Nettypedi webpage",
+        "text": "It was made for my friend Anett who is a pedicurist. Its out-of-date but i think its a fairly good looking website ... press 'more info' to read more.",
+        "image": "/img/projects/netty/netty_1.jpg"
+    },
+    {
+        "id": 11,
+        "header": "Simple phonebook",
+        "text": "It's a simple phonebook application written in C#. It was made for a school project. You are free to download ... press 'more info' to read more.",
+        "image": "/img/projects/phonebook/nevjegyzek.jpg"
+    }
+]
