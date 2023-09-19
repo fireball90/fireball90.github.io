@@ -427,10 +427,10 @@
                             <span aria-hidden="true">x</span>
                             </button>
                         </div>
-                        <div class="modal-body text-justify"  id="modalBody">
+                        <div class="modal-body text-justify" id="modalBody">
                             
                         </div>
-                        <div class="text-center jumbotron3 row" id="modalImages">
+                        <div class="text-center jumbotron3 row image-gallery" id="modalImages">
 
                         </div>
                         <div class="modal-footer">
@@ -442,12 +442,18 @@
             </div>
         </div>
     </div>
+    <div class="basicmodal">
+        <span class="basicclose" onclick="closeModal()">&times;</span>
+        <img class="basicmodal-content" alt="Modal Image">
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="/js/modeswitch.js"></script>
     <script src="/js/card.js"></script>
+    <script src="/js/modalpic.js"></script>
     <script>
         (function () {
             _386.magicCursor();

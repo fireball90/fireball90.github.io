@@ -21,7 +21,7 @@ function generateCards(data) {
                 <div class="card mb-3">
                     <div class="card-header h4 ${item.colour}">${item.header}</div>
                     <div class="text-center jumbotron3">
-                        <img src="${item.image}" alt=${item.header} title=${item.header}/>
+                        <img src="${item.image}" alt=${item.header} title=${item.header} onclick="openModal(this.src)"/>
                     </div>
                     <div class="card-body">
                         <p class="card-text text-justify">${item.text}</p>
@@ -74,6 +74,9 @@ document.addEventListener('click', function (event) {
                     img.src = imageUrl;
                     img.alt = modalData.header;
                     img.title = modalData.header;
+                    img.addEventListener("click", function () {
+                        openModal(imageUrl);
+                    })
                     modalImages.appendChild(img);
                 });
 
@@ -88,4 +91,4 @@ document.addEventListener('click', function (event) {
             console.log('Error loading modal data: ' + err);
         });
   }
-  
+

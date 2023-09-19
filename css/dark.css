@@ -6067,6 +6067,7 @@ $cyan:     #00aaaad0 !default;
     background: #fff;
   }
   .vertical-alignment-helper {
+    top:15%;
     display: table;
     height: 50%;
     width: 100%;
@@ -10679,5 +10680,31 @@ $cyan:     #00aaaad0 !default;
 }
 .bg-darkgray{
   background-color: #333 !important;
+}
+
+.basicmodal {
+  display: none;
+  position: fixed;
+  z-index: 1051;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.basicmodal-content {
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.basicclose {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
 }
   /*# sourceMappingURL=bootstrap.css.map */
