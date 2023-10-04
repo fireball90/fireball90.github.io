@@ -8,7 +8,7 @@
     {
         "id": 1,
         "header": "Admin demo page",
-        "text": "It was for a bigger project so i cant show more from this and i cant even give you the github. But it ... press '<span class='text-info'>More information</span>' to read more.",
+        "text": "This full-stack app was for a DEMO project. It's my first Next JS Typescript project ... press '<span class='text-info'>More information</span>' to read more.",
         "image": "/img/projects/demo/anydemo_1.jpg"
     },
     {
