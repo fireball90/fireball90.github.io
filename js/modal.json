@@ -2,7 +2,7 @@
     {
         "id": 0,
         "header": "Islanders the game",
-        "text": "<h4 class='text-warning'>About the project</h4><div class='jumbotron text-justify'><p>It was my biggest project so far. I made it with 2 other people for the final exam in our programming school. Its a browser game where you manage your island, attack other islands (player islands as PVP) and do expeditions on your own island (PVE). Gather materials to build new buildings and upgrade them. In the github page readme section you can find the link to the backend repository. Also you can read more about the project in the Prezentacio or Dokumentacio folders. Sadly the documentation is only available in hungarian but you can check out the presentation in english - just download the files which end with 'angol'.</p></div><h4 class='text-warning'>Techologies</h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>C# - asp.net core, webapi, entity framework, signalR, JWT etc.</a><a href='' class='list-group-item list-group-item-action text-black'>React JS - rxjs, bootstrap, axios, moment etc.</a><a href='' class='list-group-item list-group-item-action text-black'>MySql</a><a href='' class='list-group-item list-group-item-action text-black'>Capacitor</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project</h4><div class='jumbotron text-justify'><p>It was my biggest project so far. I made it with 2 other people for the final exam in our programming school. Its a browser game where you manage your island, attack other islands (player islands as PVP) and do expeditions on your own island (PVE). Gather materials to build new buildings and upgrade them. In the github page readme section you can find the link to the backend repository. Also you can read more about the project in the Prezentacio or Dokumentacio folders. Sadly the documentation is only available in hungarian but you can check out the presentation in english - just download the files which end with 'angol'.</p></div><h4 class='text-warning'>Techologies</h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>C# - asp.net core, webapi, entity framework, signalR, JWT etc.</a><a href='#projects' class='list-group-item list-group-item-action text-black'>React JS - rxjs, bootstrap, axios, moment etc.</a><a href='#projects' class='list-group-item list-group-item-action text-black'>MySql</a><a href='#projects' class='list-group-item list-group-item-action text-black'>Capacitor</a></div></div>",
         "images": [
             "/img/projects/islanders/islanders_1.jpg",
             "/img/projects/islanders/islanders_2.jpg",
@@ -14,7 +14,7 @@
     {
         "id": 1,
         "header": "Admin demo page",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>This full-stack app was for a DEMO project. It's my first Next JS Typescript project. It wasn't easy to do as a first time typescript project but i managed to do it with patience and with lots of reading / watching tutorials.</p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>Python - fastAPI, sevenIO sms, dialogflow responses etc.</a><a href='' class='list-group-item list-group-item-action text-black'>Next JS (react) - bootstrap, typescript, material UI.</a><a href='' class='list-group-item list-group-item-action text-black'>MySql</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>This full-stack app was for a DEMO project. It's my first Next JS Typescript project. It wasn't easy to do as a first time typescript project but i managed to do it with patience and with lots of reading / watching tutorials.</p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>Python - fastAPI, sevenIO sms, dialogflow responses etc.</a><a href='#projects' class='list-group-item list-group-item-action text-black'>Next JS (react) - bootstrap, typescript, material UI.</a><a href='#projects' class='list-group-item list-group-item-action text-black'>MySql</a></div></div>",
         "images": [
             "/img/projects/demo/anydemo_1.jpg",
             "/img/projects/demo/anydemo_2.jpg",
@@ -25,7 +25,7 @@
     {
         "id": 2,
         "header": "Chatters - Chat app",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>Its an unfinished project from my friend and I. We made it during the summer of 2022 but never got the time to finish it. It think its one of the better looking webpages that i have done. Its modern and slick - kind of tinder looking with its colours. I was the one who made the frontend part and its around 70% done.</p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>C# - webapi, entity framework, JWT</a><a href='' class='list-group-item list-group-item-action text-black'>HTML, CSS, JavaScript</a><a href='' class='list-group-item list-group-item-action text-black'>MS SQL</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>Its an unfinished project from my friend and I. We made it during the summer of 2022 but never got the time to finish it. It think its one of the better looking webpages that i have done. Its modern and slick - kind of tinder looking with its colours. I was the one who made the frontend part and its around 70% done.</p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>C# - webapi, entity framework, JWT</a><a href='#projects' class='list-group-item list-group-item-action text-black'>HTML, CSS, JavaScript</a><a href='#projects' class='list-group-item list-group-item-action text-black'>MS SQL</a></div></div>",
         "images": [
             "/img/projects/chat/chat_dark.jpg",
             "/img/projects/chat/chat_light.jpg",
@@ -37,7 +37,7 @@
     {
         "id": 3,
         "header": "Oldschool blog",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>Its a basic oldschool looking blog. I made the frontend and my friend did the backend for it.</p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>C# - webapi, entity framework, JWT</a><a href='' class='list-group-item list-group-item-action text-black'>HTML, CSS, JavaScript</a><a href='' class='list-group-item list-group-item-action text-black'>MS SQL</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>Its a basic oldschool looking blog. I made the frontend and my friend did the backend for it.</p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>C# - webapi, entity framework, JWT</a><a href='#projects' class='list-group-item list-group-item-action text-black'>HTML, CSS, JavaScript</a><a href='#projects' class='list-group-item list-group-item-action text-black'>MS SQL</a></div></div>",
         "images": [
             "/img/projects/blog/blog_1.jpg",
             "/img/projects/blog/blog_2.jpg"
@@ -47,7 +47,7 @@
     {
         "id": 4,
         "header": "A.I. Chat",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>I made this website for an interview. It took me 5 days to make. It has 5 parts:<p> 1. MySQL database: it saves the questions/answers to a random id generated for the user (its also saved to the localstorage so one user has the same id).</p><p> 2. Backend APIs for the communication.</p><p> 3. Backend LLM with langchain for receiving answer for the questions from a file (json files).</p><p> 4. Webscrape tool, for getting data from a webpage and converting it to a json file.</p><p> 5. Frontend react application where you can talk to the bot and also check the previous conversations with the admin page.</p><p> Its one of my biggest full-stack applications and i used firebase for deployment with ngrok.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>Python - fastAPI, langchain, openai llm etc.</a><a href='' class='list-group-item list-group-item-action text-black'>React JS</a><a href='' class='list-group-item list-group-item-action text-black'>MySQL - xampp</a><a href='#' class='list-group-item list-group-item-action text-black'>ngrok, firebase</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>I made this website for an interview. It took me 5 days to make. It has 5 parts:<p> 1. MySQL database: it saves the questions/answers to a random id generated for the user (its also saved to the localstorage so one user has the same id).</p><p> 2. Backend APIs for the communication.</p><p> 3. Backend LLM with langchain for receiving answer for the questions from a file (json files).</p><p> 4. Webscrape tool, for getting data from a webpage and converting it to a json file.</p><p> 5. Frontend react application where you can talk to the bot and also check the previous conversations with the admin page.</p><p> Its one of my biggest full-stack applications and i used firebase for deployment with ngrok.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>Python - fastAPI, langchain, openai llm etc.</a><a href='#projects' class='list-group-item list-group-item-action text-black'>React JS</a><a href='#projects' class='list-group-item list-group-item-action text-black'>MySQL - xampp</a><a href='#projects' class='list-group-item list-group-item-action text-black'>ngrok, firebase</a></div></div>",
         "images": [
             "/img/projects/aichat/aichat.jpg"
         ],
@@ -56,7 +56,7 @@
     {
         "id": 5,
         "header": "Simple Boxing game",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>A boxing game which is easy to use and play. It has some limitations but thats all i could make with C# forms/Wpf. It was also made for an exam.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>C#</a></div></div>.",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>A boxing game which is easy to use and play. It has some limitations but thats all i could make with C# forms/Wpf. It was also made for an exam.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>C#</a></div></div>.",
         "images": [
             "/img/projects/boxing/boxinggame.jpg"
         ],
@@ -65,7 +65,7 @@
     {
         "id": 6,
         "header": "WPF login",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>A simple login UI made with C#. Its not that exciting but looks good for a basic WPF application. You can use it if you want to.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>C#</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>A simple login UI made with C#. Its not that exciting but looks good for a basic WPF application. You can use it if you want to.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>C#</a></div></div>",
         "images": [
             "/img/projects/login/login.jpg"
         ],
@@ -74,7 +74,7 @@
     {
         "id": 7,
         "header": "ZugZug the game",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>I made this game with two of my friends for an exam. I was in charge of the designs, windows (tkinter), map editor.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>Python - tkinter, pillow etc.</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>I made this game with two of my friends for an exam. I was in charge of the designs, windows (tkinter), map editor.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>Python - tkinter, pillow etc.</a></div></div>",
         "images": [
             "/img/projects/zugzug/zugzug_1.jpg",
             "/img/projects/zugzug/zugzug_2.jpg",
@@ -86,7 +86,7 @@
     {
         "id": 8,
         "header": "ZugZug webpage",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>This website was made in like 3-4 hours. I made it for our ZugZug python game project which was for an exam. You can learn more about the game on the ZugZug the game project page.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>HTML, CSS</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>This website was made in like 3-4 hours. I made it for our ZugZug python game project which was for an exam. You can learn more about the game on the ZugZug the game project page.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>HTML, CSS</a></div></div>",
         "images": [
             "/img/projects/zugpage/zugzugweblap.jpg"
         ],
@@ -95,7 +95,7 @@
     {
         "id": 9,
         "header": "Simple photo webpage",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>I made this website with my friends. We wanted to try this design and also wanted to try something new - iFrames. Since we didnt learn about it in school we had to look it up on the internet.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>HTML, CSS, Iframes</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>I made this website with my friends. We wanted to try this design and also wanted to try something new - iFrames. Since we didnt learn about it in school we had to look it up on the internet.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>HTML, CSS, Iframes</a></div></div>",
         "images": [
             "/img/projects/photo/fotos1.jpg",
             "/img/projects/photo/fotos2.jpg"
@@ -105,7 +105,7 @@
     {
         "id": 10,
         "header": "Nettypedi webpage",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>It was made for my friend Anett who is a pedicurist. Its out-of-date but i think its a fairly good looking website for how fast i made it. Its simple html and css. I wanted to make some javascript for it but it wasnt needed.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>HTML, CSS</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>It was made for my friend Anett who is a pedicurist. Its out-of-date but i think its a fairly good looking website for how fast i made it. Its simple html and css. I wanted to make some javascript for it but it wasnt needed.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>HTML, CSS</a></div></div>",
         "images": [
             "/img/projects/netty/netty_1.jpg",
             "/img/projects/netty/netty_2.jpg",
@@ -116,7 +116,7 @@
     {
         "id": 11,
         "header": "Simple phonebook",
-        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>It's a simple phonebook application written in C#. It was made for a school project. You are free to download it and use it if you wish.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='' class='list-group-item list-group-item-action text-black'>C#</a></div></div>",
+        "text": "<h4 class='text-warning'>About the project:</h4><div class='jumbotron text-justify'><p>It's a simple phonebook application written in C#. It was made for a school project. You are free to download it and use it if you wish.</p></p></div><h4>Techologies: </h4><div class='jumbotron text-justify bg-info'><div class='list-group'><a href='#projects' class='list-group-item list-group-item-action text-black'>C#</a></div></div>",
         "images": [
             "/img/projects/phonebook/nevjegyzek.jpg"
         ],
