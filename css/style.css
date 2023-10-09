@@ -10514,7 +10514,7 @@ $cyan:     #00aaaad0 !default;
 }
 @media screen and (max-width: 768px) {
   .between-spacer{
-    height: 100px;
+    height: 130px;
   }
   .prof-pic{
     font-size: 12px;
