@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Balázs Mészáros portfolio website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="pNQX2QyTSBKRRQ2OLEOsuoG9wTiVW2TknCS2iUvX1Qw" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" id="stylesheet">
+</head>
+
+<body class="bootstra-enable-cursor">
+    <div class="crt">
+
+        <!-- HEADER -->
+        <section id="header">
+            <div class="between-spacer"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <div class="bs-component d-flex align-items-center justify-content-center">
+                            <pre class="prof-pic text-warning">
+                    ██
+                   ████
+                  ██████
+                 ███  ███
+                ███    ███
+               ███      ███
+              ███  <span class="text-white">████</span>  ███
+             ███   <span class="text-white">████</span>   ███
+            ███    <span class="text-white">████</span>    ███
+           ███     <span class="text-white">████</span>     ███
+          ███      <span class="text-white">████</span>      ███
+         ███       <span class="text-white">████</span>       ███
+        ███        <span class="text-white">████</span>        ███
+       ███         <span class="text-white">████</span>         ███
+      ███          <span class="text-white">████</span>          ███
+     ███                          ███
+    ███            <span class="text-white">████</span>            ███
+   ███             <span class="text-white">████</span>             ███
+  ███                                ███
+ ████████████████████████████████████████
+██████████████████████████████████████████
+                    </pre>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="bs-component text-center">
+                            <div>
+                                <p class="text-warning h6 big-font-size">404 ERROR</p>
+                            </div>
+                            <div>
+                                <p class="text-primary h4 big-font-size2">Page not found! Try <a
+                                        href="https://fireball90.github.io" class="text-danger">THIS LINK</a> instead.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.bundle.js"></script>
+        <script>
+            (function () {
+                _386.magicCursor();
+                _386.scrollLock();
+                $('[data-toggle="tooltip"]').tooltip();
+                $('[data-toggle="popover"]').popover();
+
+                $(window).scroll(function () {
+                    var top = $(document).scrollTop();
+                    if (top > 50)
+                        $('#home > .navbar').removeClass('navbar-transparent');
+                    else
+                        $('#home > .navbar').addClass('navbar-transparent');
+                });
+
+                $("a[href='#']").click(function (e) {
+                    e.preventDefault();
+                });
+
+            })();
+            loadJSON();
+        </script>
+        <div class="bootstra-cursor"></div>
+    </div>
+</body>
+
+</html>
