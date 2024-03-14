@@ -4612,9 +4612,10 @@ $cyan:     #00aaaad0 !default;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0;
     min-height: 40px; /* saját */
+
   }
   
   .navbar .container,
@@ -4745,6 +4746,9 @@ $cyan:     #00aaaad0 !default;
     .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl {
       padding-right: 0;
       padding-left: 0;
+    }
+    .between-spacer{
+      padding-top: 150px;
     }
   }
   
