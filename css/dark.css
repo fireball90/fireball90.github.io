@@ -683,10 +683,13 @@ $cyan:     #00aaaad0 !default;
   
   .card img, .nav-link img, .dropdown-list img, .modal img {
     /* display: none; */
-    padding: 10px;
+
+/*     clip-path: polygon(calc(100% - 29.0000px) calc(50% + 1.0000px),calc(100% - 29.0000px) calc(50% + 1.0000px),calc(100% - 28.6200px) calc(50% + 5.7000px),calc(100% - 27.5200px) calc(50% + 10.1600px),calc(100% - 25.7600px) calc(50% + 14.3200px),calc(100% - 23.4000px) calc(50% + 18.1200px),calc(100% - 20.5000px) calc(50% + 21.5000px),calc(100% - 17.1200px) calc(50% + 24.4000px),calc(100% - 13.3200px) calc(50% + 26.7600px),calc(100% - 9.1600px) calc(50% + 28.5200px),calc(100% - 4.7000px) calc(50% + 29.6200px),calc(100% - 0.0000px) calc(50% + 30.0000px),100% 100%,0.0000px  100%,0.0000px  calc(50% + 30.0000px),0.0000px  calc(50% + 30.0000px),4.7000px  calc(50% + 29.6200px),9.1600px  calc(50% + 28.5200px),13.3200px  calc(50% + 26.7600px),17.1200px  calc(50% + 24.4000px),20.5000px  calc(50% + 21.5000px),23.4000px  calc(50% + 18.1200px),25.7600px  calc(50% + 14.3200px),27.5200px  calc(50% + 10.1600px),28.6200px  calc(50% + 5.7000px),29.0000px  calc(50% + 1.0000px),29.0000px  calc(50% + 1.0000px),28.6200px  calc(50% - 3.7000px),27.5200px  calc(50% - 8.1600px),25.7600px  calc(50% - 12.3200px),23.4000px  calc(50% - 16.1200px),20.5000px  calc(50% - 19.5000px),17.1200px  calc(50% - 22.4000px),13.3200px  calc(50% - 24.7600px),9.1600px  calc(50% - 26.5200px),4.7000px  calc(50% - 27.6200px),0.0000px  calc(50% - 28.0000px),0.0000px  0.0000px ,100% 0.0000px ,100% calc(50% - 28.0000px),100% calc(50% - 28.0000px),calc(100% - 4.7000px) calc(50% - 27.6200px),calc(100% - 9.1600px) calc(50% - 26.5200px),calc(100% - 13.3200px) calc(50% - 24.7600px),calc(100% - 17.1200px) calc(50% - 22.4000px),calc(100% - 20.5000px) calc(50% - 19.5000px),calc(100% - 23.4000px) calc(50% - 16.1200px),calc(100% - 25.7600px) calc(50% - 12.3200px),calc(100% - 27.5200px) calc(50% - 8.1600px),calc(100% - 28.6200px) calc(50% - 3.7000px),calc(100% - 29.0000px) calc(50% + 1.0000px));  */
     width: 250px; 
     height: 150px;
-    clip-path: polygon(calc(100% - 29.0000px) calc(50% + 1.0000px),calc(100% - 29.0000px) calc(50% + 1.0000px),calc(100% - 28.6200px) calc(50% + 5.7000px),calc(100% - 27.5200px) calc(50% + 10.1600px),calc(100% - 25.7600px) calc(50% + 14.3200px),calc(100% - 23.4000px) calc(50% + 18.1200px),calc(100% - 20.5000px) calc(50% + 21.5000px),calc(100% - 17.1200px) calc(50% + 24.4000px),calc(100% - 13.3200px) calc(50% + 26.7600px),calc(100% - 9.1600px) calc(50% + 28.5200px),calc(100% - 4.7000px) calc(50% + 29.6200px),calc(100% - 0.0000px) calc(50% + 30.0000px),100% 100%,0.0000px  100%,0.0000px  calc(50% + 30.0000px),0.0000px  calc(50% + 30.0000px),4.7000px  calc(50% + 29.6200px),9.1600px  calc(50% + 28.5200px),13.3200px  calc(50% + 26.7600px),17.1200px  calc(50% + 24.4000px),20.5000px  calc(50% + 21.5000px),23.4000px  calc(50% + 18.1200px),25.7600px  calc(50% + 14.3200px),27.5200px  calc(50% + 10.1600px),28.6200px  calc(50% + 5.7000px),29.0000px  calc(50% + 1.0000px),29.0000px  calc(50% + 1.0000px),28.6200px  calc(50% - 3.7000px),27.5200px  calc(50% - 8.1600px),25.7600px  calc(50% - 12.3200px),23.4000px  calc(50% - 16.1200px),20.5000px  calc(50% - 19.5000px),17.1200px  calc(50% - 22.4000px),13.3200px  calc(50% - 24.7600px),9.1600px  calc(50% - 26.5200px),4.7000px  calc(50% - 27.6200px),0.0000px  calc(50% - 28.0000px),0.0000px  0.0000px ,100% 0.0000px ,100% calc(50% - 28.0000px),100% calc(50% - 28.0000px),calc(100% - 4.7000px) calc(50% - 27.6200px),calc(100% - 9.1600px) calc(50% - 26.5200px),calc(100% - 13.3200px) calc(50% - 24.7600px),calc(100% - 17.1200px) calc(50% - 22.4000px),calc(100% - 20.5000px) calc(50% - 19.5000px),calc(100% - 23.4000px) calc(50% - 16.1200px),calc(100% - 25.7600px) calc(50% - 12.3200px),calc(100% - 27.5200px) calc(50% - 8.1600px),calc(100% - 28.6200px) calc(50% - 3.7000px),calc(100% - 29.0000px) calc(50% + 1.0000px)); 
+    padding: 1px;
+    margin: 15px;
+    box-shadow: 10px 10px rgb(185, 185, 185);
   }
   
   code {
@@ -5020,6 +5023,7 @@ $cyan:     #00aaaad0 !default;
     background-color: #555;
     background-clip: border-box;
     border-radius: 0;
+    min-height: 400px;
   }
   
   .card > hr {
@@ -5061,6 +5065,11 @@ $cyan:     #00aaaad0 !default;
     margin-bottom: 0;
     color: #fff;
     background-color: #aa00aa;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   
   .card-header + .list-group .list-group-item:first-child {
@@ -5070,6 +5079,11 @@ $cyan:     #00aaaad0 !default;
   .card-footer {
     padding: 0 16px;
     background-color: #aa00aa;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   
   .card-header.text-muted, .card-footer.text-muted {
@@ -10530,9 +10544,31 @@ $cyan:     #00aaaad0 !default;
   }
   .card img, .nav-link img, .dropdown-list img, .modal img {
     /* display: none; */
-    width: 300px; 
+    padding: 1px;
+    margin: 15px;
+    width: 250px; 
     height: 150px;
-    padding: 10px;
+    box-shadow: 10px 10px rgb(185, 185, 185);
+  }
+  .card
+  {
+    min-height: 370px;
+  }
+  .card-header
+  {
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card-footer 
+  {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 960px) {
@@ -10550,7 +10586,29 @@ $cyan:     #00aaaad0 !default;
     /* display: none; */
     width: 180px; 
     height: 100px;
-    padding: 10px;
+    padding: 1px;
+    margin: 0px;
+    box-shadow: 5px 5px rgb(185, 185, 185);
+  }
+  .card
+  {
+    min-height: 360px;
+  }
+  .card-header
+  {
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .card-footer 
+  {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
 

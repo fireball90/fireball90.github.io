@@ -26,10 +26,9 @@ function generateCards(data) {
                     <div class="card-body">
                         <p class="card-text text-justify">${item.text}</p>
                     </div>
-                    <div class="card-body bg-darkgray">
-                        <a href="#" class="card-link" data-toggle="modal" data-target="#projectModal" data-id=${item.id}>More information</a>
-                    </div>
-                    <div class="card-footer text-muted">
+
+                    <div class="card-footer bg-darkgray text-muted">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#projectModal" data-id=${item.id}>More information</a>
                     </div>
                 </div>
             </div>
