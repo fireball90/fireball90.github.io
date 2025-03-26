@@ -1,5 +1,5 @@
 function loadJSON() {
-    fetch('js/card.json') 
+    fetch('js/card.json')
         .then(function (response) {
             return response.json();
         })
@@ -18,17 +18,17 @@ function generateCards(data) {
         cardHTML += `
         <div class="col-md-4">
             <div class="bs-component">
-                <div class="card mb-3">
+                <div class="card bg-cardbg mb-3">
                     <div class="card-header h4 ${item.colour}">${item.header}</div>
-                    <div class="text-center jumbotron3">
+                    <div class="text-center">
                         <img src="${item.image}" alt=${item.header} title=${item.header} onclick="openModal(this.src)"/>
                     </div>
                     <div class="card-body">
                         <p class="card-text text-justify">${item.text}</p>
                     </div>
 
-                    <div class="card-footer bg-darkgray text-muted">
-                    <a href="#" class="card-link" data-toggle="modal" data-target="#projectModal" data-id=${item.id}>More information</a>
+                    <div class="card-footer bg-cardfooter text-muted">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#projectModal" data-id=${item.id}><< More information >></a>
                     </div>
                 </div>
             </div>
@@ -45,29 +45,29 @@ document.addEventListener('click', function (event) {
         loadAndDisplayModal(cardId);
     }
   });
-  
+
   function loadAndDisplayModal(cardId) {
     fetch('js/modal.json')
         .then(function (response) {
-            return response.json();     
+            return response.json();
         })
         .then(function (data) {
             var modalData = data.find(function (item) {
                 return item.id === Number(cardId);
             });
-            
+
 
             if (modalData) {
                 var modalTitle = document.getElementById("modalTitle");
                 var modalBody = document.getElementById("modalBody");
                 var modalImages = document.getElementById("modalImages");
                 var githubLinkButton = document.getElementById("githubLinkButton");
-  
+
                 modalTitle.textContent = modalData.header;
                 modalBody.innerHTML = `<p>${modalData.text}</p>`;
-  
+
                 modalImages.innerHTML = "";
-  
+
                 modalData.images.forEach(function (imageUrl) {
                     var img = document.createElement("img");
                     img.src = imageUrl;
